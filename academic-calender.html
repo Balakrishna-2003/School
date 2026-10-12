@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Academic Calendar · Shree Mahalingeshwara Vidyanikethana Kunjathur</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <meta name="theme-color" content="#f58220">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- =============================================================
+     HEADER
+============================================================= -->
+<header id="schoolMainHeader" class="school-main-header">
+    <div class="container-fluid px-3 px-lg-5 h-100">
+        <div class="school-header-inner">
+            <a href="index.html" aria-label="Shree Mahalingeshwara Vidyanikethana">
+                <figure>
+                    <img
+                        src="images/shree-mahalingeshwara-vidyanikethana-school-logo.png"
+                        alt="Shree Mahalingeshwara Vidyanikethana School Logo"
+                        title="Shree Mahalingeshwara Vidyanikethana Logo"
+                        class="school-header-logo"
+                    >
+                    <figcaption class="cr-only">
+                        Official logo of Shree Mahalingeshwara Vidyanikethana School, educational institution in Kunjathur.
+                    </figcaption>
+                </figure>
+            </a>
+            <div class="school-header-right">
+                <button
+                    class="school-menu-trigger"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#schoolNavigation"
+                    aria-controls="schoolNavigation"
+                    aria-label="Open navigation"
+                >
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="schoolHeaderSpacer" class="school-header-spacer"></div>
+
+
+<article>
+
+    <!-- =========================================================
+         HERO SECTION
+    ========================================================= -->
+    <section class="calendar-hero">
+        <div class="container">
+            <div class="calendar-hero-inner">
+
+                <div class="calendar-hero-text">
+                    <div class="calendar-crumb">
+                        <a href="index.html">Home</a>
+                        <i class="bi bi-chevron-right"></i>
+                        <span>Academics</span>
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="current">Academic Calendar</span>
+                    </div>
+
+                    <div class="calendar-eyebrow">Academic Year 2026 – 27</div>
+
+                    <h1 class="calendar-hero-title">
+                        The School<br>
+                        <em>Calendar</em>
+                    </h1>
+
+                    <p class="calendar-hero-desc">
+                        A clear month-by-month view of the school year —
+                        term dates, examinations, festivals, celebrations,
+                        and holidays — so every family can plan the year
+                        ahead with confidence.
+                    </p>
+
+                    <div class="calendar-hero-facts">
+                        <span><i class="bi bi-calendar3"></i> June 2026 – March 2027</span>
+                        <span><i class="bi bi-mortarboard-fill"></i> Classes I – VIII</span>
+                        <span><i class="bi bi-building"></i> NIOS Affiliated</span>
+                    </div>
+                </div>
+
+                <div class="deco-calendar" aria-hidden="true">
+                    <div class="deco-rings">
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="deco-cal">
+                        <div class="deco-header">
+                            <div class="deco-header-lines">
+                                <span class="deco-header-bar bar-lg"></span>
+                                <span class="deco-header-bar bar-md"></span>
+                                <span class="deco-header-bar bar-sm"></span>
+                            </div>
+                        </div>
+                        <div class="deco-week">
+                            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                        <div class="deco-grid">
+                            <span class="deco-cell faded"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell hot"></span><span class="deco-cell"></span><span class="deco-cell faded"></span>
+                            <span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell hot"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell faded"></span>
+                            <span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell hot"></span><span class="deco-cell"></span><span class="deco-cell faded"></span>
+                            <span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell faded"></span>
+                            <span class="deco-cell"></span><span class="deco-cell hot"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell"></span><span class="deco-cell faded"></span>
+                        </div>
+                        <div class="deco-tear"></div>
+                        <div class="deco-foot">
+                            <div class="deco-foot-block"><i class="bi bi-bookmark-fill"></i><span></span></div>
+                            <div class="deco-foot-block"><i class="bi bi-calendar-week"></i><span></span></div>
+                            <div class="deco-foot-block"><i class="bi bi-journal-text"></i><span></span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =========================================================
+         SINGLE SWITCHABLE CALENDAR
+    ========================================================= -->
+    <section class="academic-months">
+        <div class="container">
+
+            <div class="am-head">
+                <div class="am-head-label">The Year at a Glance</div>
+                <h2>
+                    A Complete <em>Calendar View</em>
+                </h2>
+                <p>
+                    Move between months with the buttons, or search for
+                    a specific month or year to jump straight to it.
+                </p>
+            </div>
+
+            <div class="cal-wrapper">
+
+                <!-- ============ CONTROL BAR ============ -->
+                <div class="cal-controls">
+
+                    <button type="button" class="cal-nav-btn prev" id="prevBtn" aria-label="Previous month">
+                        <i class="bi bi-chevron-left"></i>
+                        <span>Previous</span>
+                    </button>
+
+                    <div class="cal-search">
+                        <i class="bi bi-search cal-search-icon"></i>
+                        <input
+                            type="text"
+                            class="cal-search-input"
+                            id="monthSearch"
+                            placeholder="Search month or year..."
+                            autocomplete="off"
+                            aria-label="Search month or year"
+                        >
+                        <div class="cal-search-results" id="searchResults" role="listbox"></div>
+                    </div>
+
+                    <button type="button" class="cal-nav-btn next" id="nextBtn" aria-label="Next month">
+                        <span>Next</span>
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+
+                </div>
+
+
+                <!-- ============ CALENDAR BODY ============ -->
+                <div class="cal-body">
+
+                    <div class="cal-grid-side">
+
+                        <div class="cal-month-head">
+                            <div class="cal-month-title">
+                                <span class="cal-month-name" id="calMonthName">June</span>
+                                <span class="cal-month-year" id="calMonthYear">2026</span>
+                            </div>
+                            <span class="cal-workdays">
+                                <i class="bi bi-calendar-check"></i>
+                                <span id="calWorkdays">24 Days</span>
+                            </span>
+                        </div>
+
+                        <div class="cal-weekdays">
+                            <span>Sun</span>
+                            <span>Mon</span>
+                            <span>Tue</span>
+                            <span>Wed</span>
+                            <span>Thu</span>
+                            <span>Fri</span>
+                            <span>Sat</span>
+                        </div>
+
+                        <div class="cal-days" id="calDays"></div>
+
+                        <div class="cal-legend">
+                            <div class="cal-legend-item">
+                                <span class="cal-legend-chip regular"></span>
+                                School Day
+                            </div>
+                            <div class="cal-legend-item">
+                                <span class="cal-legend-chip sun"></span>
+                                Sunday
+                            </div>
+                            <div class="cal-legend-item">
+                                <span class="cal-legend-chip event"></span>
+                                Event
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="cal-events-side">
+
+                        <div class="cal-events-head">
+                            <h3 class="cal-events-title">Events This Month</h3>
+                            <span class="cal-events-count">
+                                <i class="bi bi-stars"></i>
+                                <span id="calEventsCount">13 Events</span>
+                            </span>
+                        </div>
+
+                        <div class="cal-events-list" id="calEvents"></div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ============ FOOTER STRIP ============ -->
+                <div class="cal-footer">
+                    <div class="cal-footer-left">
+                        <i class="bi bi-info-circle-fill"></i>
+                        <span>Dates with events are highlighted in orange on the calendar.</span>
+                    </div>
+                    <div class="cal-footer-right">
+                        Working Days
+                        <span>224 Total</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+</article>
+
+
+<!-- =========================
+     SCHOOL FOOTER
+========================= -->
+<footer class="smv-footer">
+    <div class="container">
+        <div class="smv-footer-main">
+            <div class="smv-footer-brand">
+                <figure>
+                    <img src="images/shree-mahalingeshwara-vidyanikethana-school-logo.png"
+                         alt="Shree Mahalingeshwara Vidyanikethana School Logo"
+                         title="Shree Mahalingeshwara Vidyanikethana">
+                    <figcaption class="cr-only">
+                        Shree Mahalingeshwara Vidyanikethana School emblem representing academic excellence and values.
+                    </figcaption>
+                </figure>
+                <p>
+                    Empowering young minds with knowledge, values
+                    and compassion for a brighter tomorrow.
+                </p>
+                <div class="smv-social">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                </div>
+            </div>
+
+            <div class="smv-footer-menu">
+                <h4>Explore</h4>
+                <div class="smv-footer-line"></div>
+                <div class="row">
+                    <div class="col-6">
+                        <a href="index.html">Home</a>
+                        <a href="overview.html">About Us</a>
+                        <a href="curriculam.html">Academics</a>
+                        <a href="admission-overview.html">Admissions</a>
+                    </div>
+                    <div class="col-6">
+                        <a href="facilities.html">Facilities</a>
+                        <a href="gallery.html">Gallery</a>
+                        <a href="news-and-events.html">News & Events</a>
+                        <a href="contact-us.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="smv-footer-contact">
+                <h4>Get In Touch</h4>
+                <div class="smv-footer-line"></div>
+                <div class="smv-contact-row">
+                    <div class="smv-contact-icon">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <p>Kunjathur, Manjeshwar<br>Kasaragod, Kerala – 671323</p>
+                </div>
+                <div class="smv-contact-row">
+                    <div class="smv-contact-icon blue">
+                        <i class="bi bi-telephone-fill"></i>
+                    </div>
+                    <p>
+                        <a href="tel:+914998278940">+91 4998 278940</a><br>
+                        <a href="tel:+918921400582">+91 89214 00582</a>
+                    </p>
+                </div>
+                <div class="smv-contact-row">
+                    <div class="smv-contact-icon">
+                        <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <p>
+                        <a href="mailto:smvkunjathur@gmail.com">smvkunjathur@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="smv-footer-bottom">
+        <div class="container">
+            <div class="smv-footer-bottom-inner">
+                <div class="smv-copyright">
+                    © 2026 Shree Mahalingeshwara Vidyanikethana,
+                    Kunjathur. All Rights Reserved.
+                </div>
+                <div class="smv-powered">
+                    Powered by
+                    <a href="https://bluelinecomputers.com/" target="_blank">Blue Line Computers</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- =============================================================
+     OFFCANVAS NAVIGATION
+============================================================= -->
+<div class="offcanvas offcanvas-end school-navigation-offcanvas"
+     tabindex="-1"
+     id="schoolNavigation"
+     aria-labelledby="schoolNavigationLabel">
+
+    <div class="offcanvas-header">
+        <a href="index.html" aria-label="School Home">
+            <figure>
+                <img src="images/shree-mahalingeshwara-vidyanikethana-school-logo.png"
+                     alt="Shree Mahalingeshwara Vidyanikethana Navigation Logo"
+                     title="Shree Mahalingeshwara Vidyanikethana Navigation Logo"
+                     class="school-offcanvas-brand">
+                <figcaption class="cr-only">
+                    Mobile navigation logo for Shree Mahalingeshwara Vidyanikethana School portal in Kunjathur.
+                </figcaption>
+            </figure>
+        </a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-body">
+        <nav aria-label="Main navigation">
+            <ul class="school-menu-list">
+                <li class="school-menu-item">
+                    <a href="index.html" class="school-menu-link">Home</a>
+                </li>
+
+                <li class="school-menu-item">
+                    <button class="school-menu-parent" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#schoolAboutMenu"
+                            aria-expanded="false" aria-controls="schoolAboutMenu">
+                        <span>About Us</span>
+                        <span class="school-menu-arrow"></span>
+                    </button>
+                    <div class="collapse" id="schoolAboutMenu">
+                        <ul class="school-submenu">
+                            <li><a href="overview.html">Overview</a></li>
+                            <li><a href="history-of-the-institute.html">History of the Institution</a></li>
+                            <li><a href="vision-and-mission.html">Vision &amp; Mission</a></li>
+                            <!-- <li><a href="founders-message.html">Founder's Message</a></li> -->
+                            <li><a href="presidents-message.html">President's Message</a></li>
+                            <li><a href="principals-message.html">Principal's Message</a></li>
+                            <li><a href="management-committee.html">Management Committee</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="school-menu-item">
+                    <button class="school-menu-parent" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#schoolAcademicsMenu"
+                            aria-expanded="true" aria-controls="schoolAcademicsMenu">
+                        <span>Academics</span>
+                        <span class="school-menu-arrow"></span>
+                    </button>
+                    <div class="collapse show" id="schoolAcademicsMenu">
+                        <ul class="school-submenu">
+                            <li><a href="curriculam.html">Curriculum</a></li>
+                            <li><a href="classes-offered.html">Classes Offered</a></li>
+                            <li><a href="academic-calender.html" class="school-menu-active">Academic Calendar</a></li>
+                            <li><a href="examination-and-evaluation.html">Examination &amp; Evaluation</a></li>
+                            <li><a href="teaching-methodology.html">Teaching Methodology</a></li>
+                            <li><a href="co-curricular-activities.html">Co-Curricular Activities</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="school-menu-item">
+                    <button class="school-menu-parent" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#schoolAdmissionsMenu"
+                            aria-expanded="false" aria-controls="schoolAdmissionsMenu">
+                        <span>Admissions</span>
+                        <span class="school-menu-arrow"></span>
+                    </button>
+                    <div class="collapse" id="schoolAdmissionsMenu">
+                        <ul class="school-submenu">
+                            <li><a href="admission-overview.html">Admission Overview</a></li>
+                            <li><a href="required-documents.html">Required Documents</a></li>
+                            <li><a href="fee-structure.html">Fee Structure</a></li>
+                            <li><a href="admission-enquiry.html">Admission Inquiry</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="school-menu-item">
+                    <a href="facilities.html" class="school-menu-link">Facilities</a>
+                </li>
+
+                <li class="school-menu-item">
+                    <button class="school-menu-parent" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#schoolFacultyMenu"
+                            aria-expanded="false" aria-controls="schoolFacultyMenu">
+                        <span>Faculty &amp; Staff</span>
+                        <span class="school-menu-arrow"></span>
+                    </button>
+                    <div class="collapse" id="schoolFacultyMenu">
+                        <ul class="school-submenu">
+                            <li><a href="teaching-staff.html">Teaching Staff</a></li>
+                            <li><a href="non-teaching-staff.html">Non-Teaching Staff</a></li>
+                            <li><a href="staff-activities.html">Staff Activities</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="school-menu-item">
+                    <button class="school-menu-parent" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#schoolStudentsMenu"
+                            aria-expanded="false" aria-controls="schoolStudentsMenu">
+                        <span>Students Corner</span>
+                        <span class="school-menu-arrow"></span>
+                    </button>
+                    <div class="collapse" id="schoolStudentsMenu">
+                        <ul class="school-submenu">
+                            <li><a href="student-achievements.html">Student Achievements</a></li>
+                            <li><a href="clubs-and-activities.html">Clubs &amp; Activities</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="school-menu-item">
+                    <a href="gallery.html" class="school-menu-link">Gallery</a>
+                </li>
+
+                <li class="school-menu-item">
+                    <a href="news-and-events.html" class="school-menu-link">News &amp; Events</a>
+                </li>
+
+                <li class="school-menu-item">
+                    <a href="mandatory-disclosure.html" class="school-menu-link">Mandatory Disclosure</a>
+                </li>
+
+                <li class="school-menu-item">
+                    <a href="contact-us.html" class="school-menu-link">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="school-offcanvas-footer">
+            <div class="school-offcanvas-footer-title">Every Child Matters</div>
+            <p class="school-offcanvas-footer-text">Education · Values · Community</p>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.7.1.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const schoolHeader = document.getElementById("schoolMainHeader");
+        const schoolSpacer = document.getElementById("schoolHeaderSpacer");
+        const schoolScrollPoint = 70;
+
+        function schoolHandleHeaderScroll() {
+            if (window.scrollY > schoolScrollPoint) {
+                schoolHeader.classList.add("school-header-scrolled");
+                schoolSpacer.classList.add("school-spacer-active");
+            } else {
+                schoolHeader.classList.remove("school-header-scrolled");
+                schoolSpacer.classList.remove("school-spacer-active");
+            }
+        }
+
+        window.addEventListener("scroll", schoolHandleHeaderScroll, { passive: true });
+        schoolHandleHeaderScroll();
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const schoolNavigation = document.getElementById("schoolNavigation");
+        const schoolOffcanvas = bootstrap.Offcanvas.getOrCreateInstance(schoolNavigation);
+
+        schoolNavigation
+            .querySelectorAll(".school-submenu a, .school-menu-link")
+            .forEach(function (schoolLink) {
+                schoolLink.addEventListener("click", function () {
+                    schoolOffcanvas.hide();
+                });
+            });
+    });
+</script>
+
+<!-- =============================================================
+     CALENDAR DATA + LOGIC
+============================================================= -->
+<script>
+(function () {
+    const monthOrder = [
+        "june", "july", "august", "september", "october",
+        "november", "december", "january", "february", "march"
+    ];
+
+    const monthData = {
+        june: {
+            name: "June", year: 2026, daysInMonth: 30, startDay: 1, workdays: 24,
+            events: {
+                1:  "School Reopening",
+                6:  "Ullur S Parameshwara Iyyar Jayanthi · Acharya Yogam",
+                8:  "Hindu Samrajya Diwas",
+                10: "10th PTM",
+                13: "Cabinet Election",
+                18: "Rani Laxmi Bhai Smrithi Dinam",
+                19: "National Reading Day",
+                20: "Varshadhya Baitaq",
+                21: "International Yoga Day · Music Day",
+                23: "Olympic Day",
+                26: "Day Against Drug Abuse · Muharram",
+                27: "Vande Matharam Dinam · Investiture Ceremony",
+                30: "Dadabhai Naoroji Smriti Din"
+            }
+        },
+        july: {
+            name: "July", year: 2026, daysInMonth: 31, startDay: 3, workdays: 27,
+            events: {
+                1:  "Doctors Day",
+                4:  "Acharya Yogam · Vivekananda Smrithi Din",
+                6:  "Syama Prasad Mukharji Jayanthi",
+                7:  "District Yoga Competition",
+                10: "Chess Championship · Kho-Kho · Kabaddi · Badminton",
+                11: "P.T.A General Body Meeting · World Population Day",
+                14: "PA-1 Examination · Panini Smriti Day",
+                17: "Ramayana Month Starting",
+                23: "Bala Gangadhara Tilak · Chandrasekhar Azad Jayanthi",
+                26: "Kargil Vijaya Divas",
+                27: "APJ Abdul Kalam Smrithi Din",
+                29: "Gurupoornima",
+                31: "Uddam Singh Balidan Din"
+            }
+        },
+        august: {
+            name: "August", year: 2026, daysInMonth: 31, startDay: 6, workdays: 17,
+            events: {
+                1:  "State Kabaddi Competition · Balagangathara Thilak Smrithidinam",
+                2:  "State Kabaddi Competition",
+                3:  "School Level Prabanda Rachana",
+                8:  "Acharya Yogam (Sisuvatika) · Quit India Movement Day",
+                9:  "Sanskrit Day",
+                12: "Karkadaka Vavu · International Youth Day",
+                15: "Independence Day",
+                16: "State Kho-Kho Championship · Closing of Ramayana Month",
+                17: "Nagaraga Panchami · Farmer's Day · Chingam 1 · Malayala Bhasha Dinam",
+                21: "Varamahalakshmi Vrutha",
+                23: "National Space Day",
+                24: "Onam Celebration",
+                25: "Chattambi Swami Jayanthi",
+                26: "Thiruvonam",
+                28: "Ayyankali Jayanti · Sanskrit Day · Rakshabandan · Sri Narayana Guru Jayanthi",
+                29: "Acharya Yogam",
+                31: "Reopening After Onam Holidays"
+            }
+        },
+        september: {
+            name: "September", year: 2026, daysInMonth: 30, startDay: 2, workdays: 22,
+            events: {
+                4:  "Shree Krishna Janmashtami",
+                5:  "SASTHRAMELA District Level · Teachers Day",
+                8:  "PA-2",
+                11: "State Kayikamela",
+                12: "State Kayikamela",
+                13: "State Kayikamela",
+                14: "Ganesh Chathurthi",
+                16: "Ozone Day",
+                21: "Narayana Guru Samadhi"
+            }
+        },
+        october: {
+            name: "October", year: 2026, daysInMonth: 31, startDay: 4, workdays: 23,
+            events: {
+                1:  "International Day for Elderly People",
+                2:  "Gandhi Jayanthi",
+                3:  "Acharya Yogam",
+                10: "District Level Kalolsavam",
+                11: "International Girl Child Day · District Level Kalolsavam",
+                15: "APJ Abdul Kalam Birthday",
+                19: "Durgashtami",
+                20: "Mahanavami",
+                21: "Vijayadeshmi",
+                22: "Reopening Day",
+                26: "Valmiki Jayanthi · Term 1 Exam",
+                28: "Bhagini Niveditha Jayanthi",
+                31: "Acharya Yogam Sisuvatika"
+            }
+        },
+        november: {
+            name: "November", year: 2026, daysInMonth: 30, startDay: 0, workdays: 24,
+            events: {
+                1:  "Kerala Piravi · Kannada Rajyothsava",
+                6:  "Dhanvanthari Jayanthi",
+                8:  "Naraka Chathurdashi",
+                10: "Deepavali · Balipadyami",
+                14: "Children's Day",
+                19: "Rani Lekshmibhai Day · Mathru Sakthi Din",
+                21: "Mathr Sangama",
+                27: "Sports Day",
+                30: "National Constitution Day"
+            }
+        },
+        december: {
+            name: "December", year: 2026, daysInMonth: 31, startDay: 2, workdays: 20,
+            events: {
+                10: "Human Rights Day",
+                14: "World Energy Conservation Day",
+                15: "Shashti",
+                16: "Temple Festival",
+                17: "Temple Festival",
+                18: "Sevanidhi Leaflet Distribution",
+                20: "Geetha Jayanthi",
+                22: "School Annual Day",
+                23: "Christmas Holidays Begin",
+                28: "Re-opening Day · Shishu Sangama"
+            }
+        },
+        january: {
+            name: "January", year: 2027, daysInMonth: 31, startDay: 5, workdays: 25,
+            events: {
+                2:  "Mannam Jayanthi",
+                9:  "Acharya Yogam · Sisuvatika",
+                12: "Vivekananda Jayanthi · Sevanidhi Samarppanam · National Youth Day",
+                14: "Makara Sankramana",
+                18: "PA-3",
+                23: "Subhash Chandra Bose Jayanthi",
+                26: "Republic Day",
+                29: "Lala Lajpat Rai Jayanthi",
+                30: "Martyr's Day"
+            }
+        },
+        february: {
+            name: "February", year: 2027, daysInMonth: 28, startDay: 1, workdays: 24,
+            events: {
+                5:  "Farewell",
+                6:  "Acharya Yogam · Sisuvatika",
+                11: "Vasantha Panchami · Saraswathy Pooja · Akshara Pooja · Maharshi Dayanand Saraswathi Jayanthi",
+                13: "Ratha Sapthami · World Women's Day · P.T.A General Body Meeting",
+                15: "8th & 9th Annual Examination",
+                19: "Chathrapathi Shivaji · Guru Golwalkar · Shree Ramakrishna Jayanthi",
+                28: "Science Day"
+            }
+        },
+        march: {
+            name: "March", year: 2027, daysInMonth: 31, startDay: 1, workdays: 24,
+            events: {
+                6:  "Maha Shivaratri · Acharya Yogam · Sisuvatika",
+                10: "Idul-Fitr",
+                15: "Annual Examination",
+                26: "Good Friday"
+            }
+        }
+    };
+
+    const dayAbbr = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+    let currentMonth = "june";
+
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const searchInput = document.getElementById("monthSearch");
+    const searchResults = document.getElementById("searchResults");
+
+    const daysEl = document.getElementById("calDays");
+    const monthNameEl = document.getElementById("calMonthName");
+    const monthYearEl = document.getElementById("calMonthYear");
+    const workdaysEl = document.getElementById("calWorkdays");
+    const eventsListEl = document.getElementById("calEvents");
+    const eventsCountEl = document.getElementById("calEventsCount");
+
+    function render(key) {
+        const m = monthData[key];
+        if (!m) return;
+
+        currentMonth = key;
+
+        monthNameEl.textContent = m.name;
+        monthYearEl.textContent = m.year;
+        workdaysEl.textContent = m.workdays + " Days";
+
+        daysEl.innerHTML = "";
+
+        for (let i = 0; i < m.startDay; i++) {
+            const blank = document.createElement("div");
+            blank.className = "cal-day empty";
+            daysEl.appendChild(blank);
+        }
+
+        for (let d = 1; d <= m.daysInMonth; d++) {
+            const cell = document.createElement("div");
+            cell.className = "cal-day";
+
+            const dow = (m.startDay + d - 1) % 7;
+            if (dow === 0) cell.classList.add("sun");
+
+            if (m.events[d]) {
+                cell.classList.add("event");
+                cell.title = m.events[d];
+            }
+
+            cell.textContent = d;
+            cell.style.animationDelay = (d * 8) + "ms";
+
+            daysEl.appendChild(cell);
+        }
+
+        eventsListEl.innerHTML = "";
+        const dates = Object.keys(m.events).map(Number).sort((a, b) => a - b);
+
+        dates.forEach(function (day, idx) {
+            const dow = (m.startDay + day - 1) % 7;
+
+            const row = document.createElement("div");
+            row.className = "cal-event";
+            row.style.animationDelay = (idx * 25) + "ms";
+
+            const dateBox = document.createElement("div");
+            dateBox.className = "cal-event-date";
+
+            const numEl = document.createElement("span");
+            numEl.className = "cal-event-num";
+            numEl.textContent = day;
+
+            const dayEl = document.createElement("span");
+            dayEl.className = "cal-event-day";
+            dayEl.textContent = dayAbbr[dow];
+
+            dateBox.appendChild(numEl);
+            dateBox.appendChild(dayEl);
+
+            const textEl = document.createElement("p");
+            textEl.className = "cal-event-text";
+            textEl.textContent = m.events[day];
+
+            row.appendChild(dateBox);
+            row.appendChild(textEl);
+
+            eventsListEl.appendChild(row);
+        });
+
+        eventsCountEl.textContent = dates.length + " Events";
+    }
+
+    function goPrev() {
+        const i = monthOrder.indexOf(currentMonth);
+        const prev = i === 0 ? monthOrder.length - 1 : i - 1;
+        render(monthOrder[prev]);
+    }
+    function goNext() {
+        const i = monthOrder.indexOf(currentMonth);
+        const next = (i + 1) % monthOrder.length;
+        render(monthOrder[next]);
+    }
+
+    prevBtn.addEventListener("click", goPrev);
+    nextBtn.addEventListener("click", goNext);
+
+    let focusedIndex = -1;
+    let filteredKeys = [];
+
+    function buildSearchList(query) {
+        const q = query.trim().toLowerCase();
+        searchResults.innerHTML = "";
+        filteredKeys = [];
+
+        monthOrder.forEach(function (key) {
+            const m = monthData[key];
+            const text = (m.name + " " + m.year).toLowerCase();
+            if (!q || text.indexOf(q) !== -1) {
+                filteredKeys.push(key);
+            }
+        });
+
+        if (filteredKeys.length === 0) {
+            const empty = document.createElement("div");
+            empty.className = "cal-search-empty";
+            empty.innerHTML = '<i class="bi bi-search"></i>No matching month found';
+            searchResults.appendChild(empty);
+            focusedIndex = -1;
+            return;
+        }
+
+        filteredKeys.forEach(function (key) {
+            const m = monthData[key];
+            const item = document.createElement("div");
+            item.className = "cal-search-item" + (key === currentMonth ? " active" : "");
+            item.setAttribute("role", "option");
+            item.dataset.key = key;
+
+            item.innerHTML =
+                '<div class="cal-search-item-left">' +
+                    '<span class="cal-search-item-name">' + m.name + '</span>' +
+                    '<span class="cal-search-item-year">' + m.year + '</span>' +
+                '</div>' +
+                '<span class="cal-search-item-right">' +
+                    '<i class="bi bi-calendar-check"></i>' +
+                    m.workdays + ' Days' +
+                '</span>';
+
+            item.addEventListener("click", function () {
+                render(key);
+                closeDropdown();
+                searchInput.value = "";
+                searchInput.blur();
+            });
+
+            searchResults.appendChild(item);
+        });
+
+        focusedIndex = -1;
+    }
+
+    function openDropdown() {
+        buildSearchList(searchInput.value);
+        searchResults.classList.add("open");
+    }
+    function closeDropdown() {
+        searchResults.classList.remove("open");
+        focusedIndex = -1;
+    }
+
+    function highlightItem() {
+        const items = searchResults.querySelectorAll(".cal-search-item");
+        items.forEach(function (el, i) {
+            el.classList.toggle("focused", i === focusedIndex);
+        });
+        if (focusedIndex >= 0 && items[focusedIndex]) {
+            items[focusedIndex].scrollIntoView({ block: "nearest" });
+        }
+    }
+
+    searchInput.addEventListener("focus", openDropdown);
+    searchInput.addEventListener("input", function () {
+        buildSearchList(searchInput.value);
+        searchResults.classList.add("open");
+    });
+
+    searchInput.addEventListener("keydown", function (e) {
+        const items = searchResults.querySelectorAll(".cal-search-item");
+        if (e.key === "ArrowDown") {
+            e.preventDefault();
+            if (items.length === 0) return;
+            focusedIndex = (focusedIndex + 1) % items.length;
+            highlightItem();
+        } else if (e.key === "ArrowUp") {
+            e.preventDefault();
+            if (items.length === 0) return;
+            focusedIndex = focusedIndex <= 0 ? items.length - 1 : focusedIndex - 1;
+            highlightItem();
+        } else if (e.key === "Enter") {
+            e.preventDefault();
+            if (focusedIndex >= 0 && items[focusedIndex]) {
+                const key = items[focusedIndex].dataset.key;
+                render(key);
+                closeDropdown();
+                searchInput.value = "";
+                searchInput.blur();
+            } else if (filteredKeys.length > 0) {
+                render(filteredKeys[0]);
+                closeDropdown();
+                searchInput.value = "";
+                searchInput.blur();
+            }
+        } else if (e.key === "Escape") {
+            closeDropdown();
+            searchInput.blur();
+        }
+    });
+
+    document.addEventListener("click", function (e) {
+        if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+            closeDropdown();
+        }
+    });
+
+    render("june");
+})();
+</script>
+
+</body>
+</html>
